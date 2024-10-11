@@ -1,0 +1,32 @@
+
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+
+.userTable td{
+    @apply border text-base text-center
+}
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+.price-container {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .price-text {
+    font-size: 1rem; /* Điều chỉnh kích thước font nếu cần */
+    width: 100%; /* Đảm bảo giá không bị tràn ra ngoài */
+  }
